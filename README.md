@@ -39,3 +39,13 @@ bug is in the backend, then the API returns an error. Therefore the API returns 
 
 We are to use the provided line of code, "bool isValidArgument(const vector<Formula>& premises, const Formula& conclusion, int n, Table& counter)" to write A1 to A4 as C++ formulas and run them which should returns true if the argument is valid and we are tasked to put every counterexample under "counter". Explain in two or three sentences on how it works. Moving on, we are to print out the results in a table and compare it with our predictions. For each invalid arguments, show the counterexample row and describe it in words. Lastly, we are to state the name of the rules of inference used and the fallacy of each invalid arguments
 
+# Task 3 : search algorithms on a library catalogue [Algorithms]
+
+A catalogue stores n book IDs in a sorted order. The cost of the search is the number of books it examines. We are tasked to draw a flowchart or write a pseudocode for linear and binary search. Then we are prompted to write 
+
+int linearSearch(const vector<int>& A, int x, int& count)
+
+
+int binarySearch(const vector<int>& A, int x, int& count)
+
+It is expected to return the position of the target in A, and count to be the cost of the search. We are to Test both on A = {2, 4, 6, ..., 20} with targets 2, 20, 10, 11, 1 and 30, and on a one-element list (target present and absent). Show position of X and count in a table, and show that your hand trace for the target 11 gives the same count as your program.
